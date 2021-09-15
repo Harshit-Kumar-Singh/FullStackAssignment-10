@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #8D909B;
   font-family: Arial, Helvetica, sans-serif;
 }
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #bbb6df;
+  background-color: #3E442B;
   width: 100%;
   height: 65px;
   top: 0;
@@ -23,7 +24,7 @@
   top: 65px;
   width: 20%;
   height: 100vh;
-  background-color: #c6c8ee;
+  background-color: #6A7062;
   left: -20%;
   transition: 700ms;
 }
@@ -63,9 +64,12 @@
 }
 .main-content {
   float: right;
+  background-color: #8D909B;
   text-align: center;
   transition: 0.7s;
   padding: 10px;
+  /* width: 100%; */
+  margin-left: 0px;
   /* text-align: justify; */
 }
 .social {
